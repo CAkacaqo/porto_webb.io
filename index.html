@@ -131,6 +131,13 @@
         .text-glow {
             animation: glow 1s ease-in-out infinite alternate;
         }
+        .project-links a {
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            font-size: 0.9rem;
+            margin-right: 1.5rem;
+        }
 
         /* Standard keyframes */
         @keyframes glow {
@@ -217,33 +224,77 @@
                     <!-- Project Card 1 -->
                     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="card h-100 shadow-lg border-0 project-card">
-                            <img src="Images\ic_launcher.webp" alt="Screenshot of Project 1" class="card-img-top" style="height: 14rem; object-fit: cover;">
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 d-flex flex-column">
+                                <img src="Images\ic_launcher.webp" alt="Screenshot of Project 1" class="card-img-top" style="height: 14rem; object-fit: cover;">
                                 <h3 class="card-title fs-4 fw-bold mb-2">Lost & Found Platform</h3>
                                 <p class="card-text text-secondary 50 mb-3">A full-featured helper application for lost&found built with Kotlin and Firebase for authentication and database management.</p>
-                                <a href="https://github.com/CAkacaqo/foundit-projektz.git" class="text-info fw-semibold">View Project &rarr;</a>
+
+                                <div class="mt-auto project-links">
+                                    <a href="https://github.com/CAkacaqo/foundit-projektz.git" class="text-info fw-semibold">View Project &rarr;</a>
+                                </div>
+
                             </div>
-                        </div>
+                        </div>       
                     </div>
+                    
                     <!-- Project Card 2 -->
                     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="card h-100 shadow-lg border-0 project-card">
-                            <img src="Images/Embedded automated filtration.jpg" alt="Screenshot of Project 2" class="card-img-top" style="height: 14rem; object-fit: cover;">
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 d-flex flex-column">
+                                <img src="Images/Embedded automated filtration.jpg" alt="Screenshot of Project 2" class="card-img-top" style="height: 14rem; object-fit: cover;">
                                 <h3 class="card-title fs-4 fw-bold mb-2">Automated Filtration System</h3>
                                 <p class="card-text text-secondary mb-3">A sleek and intuitive automated filtration system with real-time monitoring, built using Arduino and turbidity sensor in C++.</p>
-                                <a href="https://drive.google.com/file/d/1D2SsZsMGX9HIoPixZO4M-HVSEFyY4zHe/view?usp=sharing" class="text-primary fw-semibold">View Paper &rarr;</a>
+
+                                <div class="mt-auto project-links">
+                                    <a href="https://drive.google.com/file/d/1D2SsZsMGX9HIoPixZO4M-HVSEFyY4zHe/view?usp=sharing" class="text-primary fw-semibold">View Paper &rarr;</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                     <!-- Project Card 3 -->
                     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="card h-100 shadow-lg border-0 project-card">
-                            <img src="Images/Portofolio_web.png" alt="Screenshot of Project 3" class="card-img-top" style="height: 14rem; object-fit: cover;">
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 d-flex flex-column">
+                                <img src="Images/Portofolio_web.png" alt="Screenshot of Project 3" class="card-img-top" style="height: 14rem; object-fit: cover;">
                                 <h3 class="card-title fs-4 fw-bold mb-2">Portfolio Website</h3>
                                 <p class="card-text text-secondary mb-3">The very website you're looking at! Designed and built with HTML, CSS, and a touch of JavaScript.</p>
-                                <a href="https://github.com/CAkacaqo/porto_webb" class="text-primary fw-semibold">View on GitHub &rarr;</a>
+
+                                <div class="mt-auto project-links">
+                                    <a href="https://github.com/CAkacaqo/porto_webb" class="text-primary fw-semibold">View on GitHub &rarr;</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100 shadow-lg border-0 project-card">
+                            <div class="card-body p-4 d-flex flex-column">
+                                <img src="Images/IoT_Aaron.png" alt="Screenshot of Project 4" class="card-img-top" style="height: 14rem; object-fit: cover;">
+                                <h3 class="card-title fs-4 fw-bold mb-2">IoT Plant Monitoring</h3>
+                                <p class="card-text text-secondary mb-3">IoT implementation and sensor readings for soil and plant conditions in real-time .</p>
+                                
+                                <div class="mt-auto project-links">
+                                    <a href="Images/IoT MQTT.pdf" class="text-primary fw-semibold">View PDF &rarr;</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card h-100 shadow-lg border-0 project-card">
+                            <div class="card-body p-4 d-flex flex-column">
+                                <img src="Images/snort_logo.png" alt="Screenshot of Project 5" class="card-img-top" style="height: 14rem; object-fit: cover;">
+                                <h3 class="card-title fs-4 fw-bold mb-2">DOS Simulation on IDS & IPS</h3>
+                                <p class="card-text text-secondary mb-3">DOS simulation on IDS & IPS using Snort and Fail2Ban on dummy server in Ubuntu VM</p>
+                                
+                                <div class="mt-auto project-links">
+                                    <a href="Images/DOS Simulation.pdf" class="text-primary fw-semibold">View PDF &rarr;</a>
+                                    <a href="https://binusianorg-my.sharepoint.com/personal/samuel_purnomo_binus_ac_id/_layouts/15/guestaccess.aspx?share=IgA72So10qdsTr3RiSejcs6PAdEJk26c1XGPuTgKcU3ohAM&e=8cwtaF" class="text-primary fw-semibold d-block mt-2">View Video demo &rarr;</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
